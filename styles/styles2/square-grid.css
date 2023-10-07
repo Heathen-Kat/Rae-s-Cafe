@@ -1,0 +1,50 @@
+   /*Square grid styles*/
+   .squares-wrapper {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.squares-wrapper > .squares {
+    width: 1000px;
+}
+
+.squares-wrapper > .squares > .square {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 0px;
+}
+
+.squares-wrapper > .squares > .square > .square-text-wrapper > .square-sides-dinner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 0px;
+    font-size: 0.9em;
+}
+
+.squares-wrapper > .squares > .square > .square-text-wrapper > .square-sides {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 0px;
+    font-size: 0.9em;
+}
+
+
+
+.square > .img-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.square > .square-text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3px;
+}
+
+.square > .square-text-wrapper h1{
+    color: #cea135;
+}

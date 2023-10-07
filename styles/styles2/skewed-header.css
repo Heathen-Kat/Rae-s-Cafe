@@ -1,0 +1,113 @@
+/* Skewed header */
+.skewed-header {
+    position: relative;
+    height: 415px;
+    overflow: hidden;
+}
+
+.skewed-header > .header-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 95%;
+    width: 150%;
+    background-repeat: no-repeat;
+    background-size: 67%; 
+    transform:skewY(-6deg);
+    transform-origin: top left;
+    filter: brightness(50%);
+}
+
+.skewed-header > .skewed-header-wrapper {
+    
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content {
+    
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper { 
+    background-color: #000000b5;   
+    color: #f3f2f1;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    width: 175px;
+    padding: 10px;
+    text-align: center;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+
+.skewed-header-contact {
+    position: relative;
+    height: 415px;
+    overflow: hidden;
+}
+
+.skewed-header-contact > .header-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 95%;
+    width: 350%;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position-y: -525px;
+    transform:skewY(-6deg);
+    transform-origin: top left;
+    filter: brightness(50%);
+}
+
+.skewed-header-contact > .skewed-header-wrapper {
+    
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.skewed-header-contact > .skewed-header-wrapper > .skewed-header-content {
+    
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skewed-header-contact > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper { 
+    background-color: #000000b5;   
+    color: #f3f2f1;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    width: 175px;
+    padding: 10px;
+    text-align: center;
+}
+
+.skewed-header-contact > .skewed-header-wrapper > .skewed-header-content > .links-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
